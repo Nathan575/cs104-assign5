@@ -8,7 +8,7 @@ SRC = main.c addition.c subtraction.c multiplication.c division.c
 OBJ = $(SRC:.c=.o)
 TARGET = calculator
 
-# Default rule: Compile the program
+# Default rule: Compile the program (if only make)
 all: $(TARGET)
 
 # Target depends on the .obj files
